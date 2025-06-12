@@ -1,7 +1,7 @@
 # KAMENIKA - E-commerce Platform
 
 <p align="center">
-  <img src="" width="100" alt="Emeraude Jewelry Logo">
+  <img src="" width="100" alt="KAMENIKA Logo">
   <h1 align="center">KAMENIKA</h1>
 </p>
 
