@@ -46,7 +46,7 @@ public function add(Request $request, $productId)
 
     session()->put('cart', $cart);
     
-    return redirect()->back()->with('success', 'Produit ajouté au panier!');
+    return redirect()->back()->with('success', 'Товар добавлен в корзину!');
 }
     public function update(Request $request)
     {
@@ -54,7 +54,7 @@ public function add(Request $request, $productId)
             $cart = session()->get('cart');
             $cart[$request->id]["quantity"] = $request->quantity;
             session()->put('cart', $cart);
-            return redirect()->back()->with('success', 'Panier mis à jour');
+            return redirect()->back()->with('success', 'Обновленная корзина для покупок');
         }
     }
 
@@ -66,7 +66,7 @@ public function add(Request $request, $productId)
                 unset($cart[$request->id]);
                 session()->put('cart', $cart);
             }
-            return redirect()->back()->with('success', 'Produit supprimé');
+            return redirect()->back()->with('success', 'Продукт удален');
         }
     }
 }

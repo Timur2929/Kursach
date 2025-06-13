@@ -5,7 +5,7 @@
     <!-- Герой-секция с параллакс-эффектом -->
     <div class="relative bg-gray-900 overflow-hidden h-screen max-h-[80vh]">
         <div class="absolute inset-0 overflow-hidden">
-            <img src="https://images.pexels.com/photos/12495610/pexels-photo-12495610.jpeg" 
+        <a href="https://imgfoto.host/i/curwpy"><img src="https://a.imgfoto.host/2025/06/13/Screenshot-2022-11-25-at-1.59-1.png" alt="Screenshot-2022-11-25-at-1.59-1.png" border="0" /></a>
                  alt="Роскошные золотые цепочки"  
                  class="w-full h-full object-cover object-center">
             <div class="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -102,11 +102,11 @@
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 group">
                     <div class="h-64 overflow-hidden relative">
                         <img class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500" 
-                             src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                             alt="Жан Дюбуа">
+                             src="https://avatars.mds.yandex.net/i?id=6134288139603ce0efd814ba1b586f89_l-7761916-images-thumbs&n=13" 
+                             alt="Тимур Абдрашитов">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-transparent to-transparent"></div>
                         <div class="absolute bottom-4 left-4">
-                            <h3 class="text-xl font-semibold text-white">Жан Дюбуа</h3>
+                            <h3 class="text-xl font-semibold text-white">Тимур Абдрашитов</h3>
                             <p class="text-emerald-300 mt-1">Златокузнец</p>
                         </div>
                     </div>
@@ -128,11 +128,11 @@
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 group">
                     <div class="h-64 overflow-hidden relative">
                         <img class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500" 
-                             src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                             alt="Элоди Мартен">
+                             src="https://ospu.ru/assets/resources/articles/photos/koroleva_u_a.JPG " 
+                             alt="Юлия королева">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-transparent to-transparent"></div>
                         <div class="absolute bottom-4 left-4">
-                            <h3 class="text-xl font-semibold text-white">Элоди Мартен</h3>
+                            <h3 class="text-xl font-semibold text-white">Юлия Королева</h3>
                             <p class="text-emerald-300 mt-1">Дизайнер</p>
                         </div>
                     </div>
@@ -159,11 +159,11 @@
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 group">
                     <div class="h-64 overflow-hidden relative">
                         <img class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500" 
-                             src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                             alt="Тома Леруа">
+                             src="https://avatars.mds.yandex.net/i?id=f290b64157694ea59447da459f010020_l-12317703-images-thumbs&n=13" 
+                             alt="Сергей Кононов">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-transparent to-transparent"></div>
                         <div class="absolute bottom-4 left-4">
-                            <h3 class="text-xl font-semibold text-white">Тома Леруа</h3>
+                            <h3 class="text-xl font-semibold text-white">Сергей Кононов</h3>
                             <p class="text-emerald-300 mt-1">Эксперт по Алмазам</p>
                         </div>
                     </div>

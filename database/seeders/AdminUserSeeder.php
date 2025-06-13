@@ -19,5 +19,12 @@ public function run()
         'password' => bcrypt('password'),
         'role' => 'admin'
     ]);
+
+    \App\Models\User::create([
+        'name' => 'User',
+        'email' => 'user@gmail.com',
+        'password' => bcrypt('password'),
+        'role' => 'customer'
+    ]);
 }
 }

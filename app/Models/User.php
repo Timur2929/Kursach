@@ -19,23 +19,12 @@ class User extends Authenticatable
      *
      * @var list<string>
      */
-    const ROLE_CUSTOMER = 'customer';
-    const ROLE_ADMIN = 'admin';
     protected $fillable = [
         'name',
         'email',
         'password',
         'role',
     ];
-    public function isAdmin()
-    {
-        return $this->role === self::ROLE_ADMIN;
-    }
-
-    public function isCustomer()
-    {
-        return $this->role === self::ROLE_CUSTOMER;
-    }
 
     /**
      * The attributes that should be hidden for serialization.
