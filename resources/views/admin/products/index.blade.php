@@ -6,8 +6,8 @@
 <div class="px-4 sm:px-6 lg:px-8">
     <div class="sm:flex sm:items-center">
         <div class="sm:flex-auto">
-            <h1 class="text-xl font-semibold text-gray-900">Jewelry Products</h1>
-            <p class="mt-2 text-sm text-gray-700">Manage your jewelry collection</p>
+            <h1 class="text-xl font-semibold text-gray-900">Ювелирные изделия</h1>
+            <p class="mt-2 text-sm text-gray-700">Управляйте своей коллекцией ювелирных изделий</p>
         </div>
         <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
             <a href="{{ route('admin.products.create') }}" class="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto">
@@ -20,10 +20,10 @@
         <table class="min-w-full divide-y divide-gray-200">
             <thead class="bg-gray-50">
                 <tr>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Image</th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Price</th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Category</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Картинка</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Название</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Категория</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Цена</th>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
                 </tr>
             </thead>
@@ -69,16 +69,16 @@
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
                         <div class="text-sm text-gray-900">
-                            ${{ number_format($productArray['prix'] ?? 0, 2) }}
+                            {{ number_format($productArray['prix'] ?? 0, 2) }} Руб
                         </div>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                         @if(isset($productArray['id']))
-                        <a href="{{ route('admin.products.edit', $productArray['id']) }}" class="text-indigo-600 hover:text-indigo-900 mr-3">Edit</a>
+                        <a href="{{ route('admin.products.edit', $productArray['id']) }}" class="text-indigo-600 hover:text-indigo-900 mr-3">Редактировать</a>
                         <form action="{{ route('admin.products.destroy', $productArray['id']) }}" method="POST" class="inline">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="text-red-600 hover:text-red-900" onclick="return confirm('Are you sure?')">Delete</button>
+                            <button type="submit" class="text-red-600 hover:text-red-900" onclick="return confirm('Вы уверены?')">Удалить</button>
                         </form>
                         @else
                         <span class="text-red-500">No ID</span>

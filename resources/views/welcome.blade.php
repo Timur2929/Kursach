@@ -19,9 +19,8 @@
             <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 relative min-h-[50vh] flex items-center">
                 <!-- Background image -->
                 <div class="absolute inset-0 overflow-hidden">
-                <a href="https://imgfoto.host/i/cur42x"><img src="https://a.imgfoto.host/2025/06/13/Rectangle-3.png" alt="Rectangle-3.png" border="0" /></a>
-                 alt="Luxury gold chain jewelry"  
-                         class="w-full h-full object-cover object-center">
+                <img src="https://a.imgfoto.host/2025/06/13/Rectangle-3.png" alt="Rectangle-3.png" border="0" />
+                 
                     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
                 </div>
         

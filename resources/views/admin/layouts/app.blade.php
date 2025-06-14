@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title') - Jewelry Admin</title>
+    <title>@yield('title') - KAMENIKA Admin</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-100">
@@ -11,11 +11,11 @@
         <!-- Sidebar -->
         <div class="w-64 bg-gray-800 text-white min-h-screen">
             <div class="p-4">
-                <h1 class="text-xl font-bold">Jewelry Admin</h1>
+                <h1 class="text-xl font-bold">KAMENIKA Admin</h1>
             </div>
             <nav class="mt-4">
                 <a href="{{ route('admin.dashboard') }}" class="block py-2 px-4 hover:bg-gray-700">Главная</a>
-                <a href="{{ route('admin.products.index') }}" class="block py-2 px-4 hover:bg-gray-700">Товары</a>
+                <a href="{{ route('admin.products.index') }}" class="block py-2 px-4 hover:bg-gray-700">Изделия</a>
                 <a href="{{ route('admin.categories.index') }}" class="block py-2 px-4 hover:bg-gray-700">Категории</a>
                 <a href="{{ route('admin.orders.index') }}" class="block py-2 px-4 hover:bg-gray-700">Заказы</a>
                 <a href="{{ route('admin.discounts.index') }}" class="block py-2 px-4 hover:bg-gray-700">Скидки</a>

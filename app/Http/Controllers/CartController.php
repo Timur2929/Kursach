@@ -54,7 +54,7 @@ public function add(Request $request, $productId)
             $cart = session()->get('cart');
             $cart[$request->id]["quantity"] = $request->quantity;
             session()->put('cart', $cart);
-            return redirect()->back()->with('success', 'Обновленная корзина для покупок');
+            return redirect()->back()->with('success', 'Корзина обновлена!');
         }
     }
 

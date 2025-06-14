@@ -103,28 +103,28 @@
                                     <label for="price-all" class="ml-3 text-sm text-gray-600">Все цены</label>
                                 </div>
                                 <div class="flex items-center">
-                                    <input type="radio" id="price-1" name="price" value="1" 
+                                    <!-- <input type="radio" id="price-1" name="price" value="1" 
                                            {{ request('price') == '1' ? 'checked' : '' }}
                                            class="h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-500">
-                                    <label for="price-1" class="ml-3 text-sm text-gray-600">До 1000 Руб</label>
+                                    <label for="price-1" class="ml-3 text-sm text-gray-600">До 1000 Руб</label> -->
                                 </div>
                                 <div class="flex items-center">
-                                    <input type="radio" id="price-2" name="price" value="2" 
+                                    <!-- <input type="radio" id="price-2" name="price" value="2" 
                                            {{ request('price') == '2' ? 'checked' : '' }}
                                            class="h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-500">
-                                    <label for="price-2" class="ml-3 text-sm text-gray-600">1000 Руб - 3000 Руб</label>
+                                    <label for="price-2" class="ml-3 text-sm text-gray-600">1000 Руб - 3000 Руб</label> -->
                                 </div>
                                 <div class="flex items-center">
-                                    <input type="radio" id="price-3" name="price" value="3" 
+                                    <!-- <input type="radio" id="price-3" name="price" value="3" 
                                            {{ request('price') == '3' ? 'checked' : '' }}
                                            class="h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-500">
-                                    <label for="price-3" class="ml-3 text-sm text-gray-600">3000 Руб - 5001 Руб</label>
+                                    <label for="price-3" class="ml-3 text-sm text-gray-600">3000 Руб - 5001 Руб</label> -->
                                 </div>
                                 <div class="flex items-center">
-                                    <input type="radio" id="price-4" name="price" value="4" 
+                                    <!-- <input type="radio" id="price-4" name="price" value="4" 
                                            {{ request('price') == '4' ? 'checked' : '' }}
                                            class="h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-500">
-                                    <label for="price-4" class="ml-3 text-sm text-gray-600">Более 5000 Руб</label>
+                                    <label for="price-4" class="ml-3 text-sm text-gray-600">Более 5000 Руб</label> -->
                                 </div>
                             </div>
                         </div>
