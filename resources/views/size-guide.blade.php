@@ -7,7 +7,7 @@
         <div class="text-center mb-12">
             <h1 class="text-3xl font-bold text-emerald-800 mb-4">Руководство по размерам</h1>
             <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                Найдите идеальный размер для ваших украшений Emeraude Jewelry
+                Найдите идеальный размер для ваших украшений KAMENIKA
             </p>
         </div>
 

@@ -71,7 +71,7 @@
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 group">
                     <div class="h-64 overflow-hidden relative">
                         <img class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500" 
-                             src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                             src="https://sun9-45.userapi.com/impg/jNaYurUKciydkSBi9jnuMrMkzo5icl5Vw5uEyQ/tc8FceXDaXk.jpg?size=1391x2160&quality=95&sign=48fb85c1530d2126573ed3a0240f537a&type=album" 
                              alt="Вероника Кононова">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-transparent to-transparent"></div>
                         <div class="absolute bottom-4 left-4">
