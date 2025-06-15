@@ -18,7 +18,7 @@
                 <a href="{{ route('admin.products.index') }}" class="block py-2 px-4 hover:bg-gray-700">Изделия</a>
                 <a href="{{ route('admin.categories.index') }}" class="block py-2 px-4 hover:bg-gray-700">Категории</a>
                 <a href="{{ route('admin.orders.index') }}" class="block py-2 px-4 hover:bg-gray-700">Заказы</a>
-                <a href="{{ route('admin.discounts.index') }}" class="block py-2 px-4 hover:bg-gray-700">Скидки</a>
+                <!-- <a href="{{ route('admin.discounts.index') }}" class="block py-2 px-4 hover:bg-gray-700">Скидки</a> -->
                 <a href="{{ route('home') }}" class="block py-2 px-4 hover:bg-gray-700">Магазин</a>
                 <!-- Add more nav items as needed -->
             </nav>

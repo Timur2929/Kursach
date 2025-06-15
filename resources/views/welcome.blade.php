@@ -89,7 +89,7 @@
         
         <!-- View all button -->
         <div class="text-center mt-8">
-            <a href="{{ route('admin.categories.index') }}" class="inline-block px-6 py-3 border border-emerald-600 text-emerald-600 font-medium rounded-full hover:bg-emerald-600 hover:text-white transition duration-300">
+            <a href="{{ route('shop') }}" class="inline-block px-6 py-3 border border-emerald-600 text-emerald-600 font-medium rounded-full hover:bg-emerald-600 hover:text-white transition duration-300">
                 Все категории →
             </a>
         </div>
@@ -101,7 +101,7 @@
     </div>
     <!-- Best Sellers Section -->
    <!-- Best Sellers Section -->
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="text-center mb-12">
         <h2 class="text-3xl font-bold text-gray-900">Хиты продаж</h2>
         <p class="mt-4 max-w-2xl text-xl text-gray-600 mx-auto">
@@ -112,7 +112,7 @@
     @if($bestSellers->count() > 0)
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             @foreach($bestSellers as $product)
-            <div class="group relative bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300">
+            <div class="group relative bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300"> -->
                 <!-- Sale Badge -->
                 @if($product->on_sale)
                 <span class="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10">
@@ -121,9 +121,9 @@
                 @endif
                 
                 <!-- Best Seller Badge -->
-                <span class="absolute top-2 right-2 bg-yellow-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10">
+                <!-- <span class="absolute top-2 right-2 bg-yellow-500 text-white text-xs font-bold px-2 py-1 rounded-full z-10">
                     Хит продаж
-                </span>
+                </span> -->
 
                 <!-- Product Image -->
                 <a href="{{ route('products.show', $product) }}" class="block">
@@ -218,20 +218,20 @@
             </div>
             @endforeach
         </div>
-    @else
+    <!-- @else
         <div class="text-center py-12">
             <p class="text-gray-500">Хиты продаж временно отсутствуют</p>
         </div>
-    @endif
+    @endif -->
 
-    <div class="mt-12 text-center">
+    <!-- <div class="mt-12 text-center">
         <a href="{{ route('shop') }}" class="inline-flex items-center px-6 py-3 border border-emerald-600 text-emerald-600 font-medium rounded-full hover:bg-emerald-600 hover:text-white transition duration-300">
             Все товары
             <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
         </a>
-    </div>
+    </div> -->
 </div>
 <!-- Новинки Section -->
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

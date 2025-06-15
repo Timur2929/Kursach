@@ -4,7 +4,7 @@
             <!-- Логотип -->
             <div class="flex-shrink-0 flex items-center">
                 <a href="{{ url('/') }}" class="flex items-center">
-                    <img width="27" height="27" src="https://img.icons8.com/color/48/emerald.png" alt="логотип изумруд"/>
+                    <img width="67" height="67" src="https://sun9-51.userapi.com/impg/l4-Ga5nzoW_AcB9TLgBUaMPVkEqyKhVMq21k6g/P_HZg_WNsBw.jpg?size=2000x2000&quality=95&sign=dfe756487d432783c9740951224ef657&type=album" alt="логотип KAMENIKA"/>
                     <span class="text-xl font-bold text-gray-800 ml-2">KAMENIKA</span>
                 </a>
             </div>

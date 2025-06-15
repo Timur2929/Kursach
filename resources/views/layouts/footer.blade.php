@@ -4,7 +4,7 @@
             <!-- Логотип и описание -->
             <div class="md:col-span-2">
                 <div class="flex items-center mb-6">
-                    <img width="32" height="32" src="https://img.icons8.com/color/48/emerald.png" alt="изумруд логотип" />
+                    <img width="70" height="70" src="https://sun9-17.userapi.com/impg/tV_My6QXBgDAxrlhOFfm6Z85scU-fLyz6BiODA/mGGl-iXWMwo.jpg?size=1280x1280&quality=95&sign=bd806d36dd9c8591a8617e881fed6806&type=album" alt="изумруд логотип" />
                     <span class="text-2xl font-bold ml-2 bg-gradient-to-r from-emerald-400 to-emerald-300 bg-clip-text text-transparent">
                         KAMENIKA
                     </span>
