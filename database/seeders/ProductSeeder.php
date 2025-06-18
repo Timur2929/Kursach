@@ -34,7 +34,7 @@ class ProductSeeder extends Seeder
             ],
             [
                 'nom' => 'Сувениры',
-                'image' => '/category_images/Kamenika.jpg',
+                'image' => '//Kamenika.jpg',
             ],
         ];
 
