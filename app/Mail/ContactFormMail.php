@@ -22,7 +22,7 @@ class ContactFormMail extends Mailable
     public function build()
     {
         return $this->from(config('mail.from.address'), config('mail.from.name'))
-                    ->subject('Nouveau message de contact - ' . $this->formData['subject'])
+                    ->subject('Новое контактное сообщение - ' . $this->formData['subject'])
                     ->view('emails.contact-form')
                     ->replyTo($this->formData['email']);
     }
