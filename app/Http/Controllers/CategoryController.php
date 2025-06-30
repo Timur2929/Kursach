@@ -31,7 +31,31 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+    // Временный вывод для отладки
+    if($request->hasFile('image')) {
+    $file = $request->file('image');
+    dd([
+        'file_exists' => $file->exists(),
+        'is_valid' => $file->isValid(),
+        'extension' => $file->extension(),
+        'path' => $file->path(),
+        'size' => $file->getSize(),
+    ]);
+    }
+
+        $validated = $request->validate([
+            'nom' => 'required|string|max:255',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+    
+        $imagePath = $request->file('image')->store('categories', 'public');
+    
+        $category = Category::create([
+            'nom' => $validated['nom'],
+            'image' => $imagePath,
+        ]);
+    
+        return redirect()->route('admin.categories.index');
     }
 
     /**

@@ -46,9 +46,40 @@ class ProductController extends Controller
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
-    {
-        //
+{
+    // Временный вывод для отладки
+    if($request->hasFile('image')) {
+        $file = $request->file('image');
+        dd([
+            'file_exists' => $file->exists(),
+            'is_valid' => $file->isValid(),
+            'extension' => $file->extension(),
+            'path' => $file->path(),
+            'size' => $file->getSize(),
+        ]);
     }
+
+
+    $validated = $request->validate([
+        'nom' => 'required|string|max:255',
+        'description' => 'required|string',
+        'prix' => 'required|numeric',
+        'category_id' => 'required|exists:categories,id',
+        'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+    ]);
+
+    $imagePath = $request->file('image')->store('products', 'public');
+
+    $product = Product::create([
+        'nom' => $validated['nom'],
+        'description' => $validated['description'],
+        'prix' => $validated['prix'],
+        'category_id' => $validated['category_id'],
+        'image' => $imagePath,
+    ]);
+
+    return redirect()->route('admin.products.index');
+}
 
     /**
      * Display the specified resource.
